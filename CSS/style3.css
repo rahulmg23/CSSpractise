@@ -1,0 +1,67 @@
+/* #box1{
+    background-color: rgb(255, 149, 10);
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+}
+#box2{
+    background-color: rgb(38, 0, 255);
+    width: 50%;
+    height: 100px;
+    font-size: 2em;
+    /* em mean double the size of the parent */
+    /* width: 5em; */
+    /* 20 * 5 rem 16 which is default of the size of the root so 16* 5 = 80 */
+    /* vh will be the height acc to the scree height: 20vh; */
+    /* vw viewport width
+    
+} */
+
+div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border:2px solid black ;
+    display: inline-block;
+}
+ 
+#box1{
+    position: static;
+    /* this is the default pos there wont be any properties such as left right bottom */
+}
+#box2{
+    position: relative; /* it wil be relative to itself*/
+    top: 20px;
+    left: 10px;
+    background-color: aqua;
+    z-index: 3;
+}
+#box3{
+    position: absolute;
+    left: 200px;
+    z-index: 1;
+    /* will be acc to the position of the ancesstor ie the body tag where <body> browser size */
+    /* top: 200px; */
+}
+ 
+#box4{
+    position: fixed;
+    /* /* where the position will be fixed used in header and footer  */
+    bottom: 20px;
+    left: 20px;
+    /* position: will be fixed always wont move when poisiton is fixed; */
+    
+    /* background-image: url("car.jpg") */
+    /* backd */
+}
+
+ /* sticky the position will be fixed when the we scroll down (nav bar)*/
+
+
+ #box4{
+    background-image: url("car.jpg");
+    background-size:contain;
+    /* cover /contain will repat /auto */
+    background-repeat:no-repeat;
+
+}

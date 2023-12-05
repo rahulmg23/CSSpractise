@@ -1,0 +1,62 @@
+h1{
+    color: rgb(88, 202, 202);
+    background-color: rgb(195, 110, 153);
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+        /* to underline overline */
+        /* used none when to remove the underline in a link */
+}
+h3{
+    color: yellow;
+}
+h4{
+    color: aliceblue;
+    text-align: start;
+    /* left */
+    font-size: 12px;
+    /* decides the size of the alphabet */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* fall back mechanism */
+    line-height: normal;
+    /* will decide the spacing between the lines  */
+    text-transform: lowercase;
+    /* will make the alphabets to lowercase or uppercase */
+}
+p{
+    color: beige;
+}
+button{
+    color: #d3cdff;
+    background-color: blue;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+body{
+    background-color: rgb(255, 200, 40);
+}
+.myClass{
+    color-scheme: rgb(196, 69, 69);
+}
+#box{
+    color: aquamarine;
+    background-color: black;
+}
+
+#h5{
+    font-weight: lighter;
+    /* will range from 100 to 900 */
+    /* lighter to darker */
+}
+#h6{
+    font-weight: lighter;
+}
+#h7{
+    font-weight: lighter;
+}
+#h8{
+    font-weight: lighter;
+}

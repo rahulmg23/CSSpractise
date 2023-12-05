@@ -1,0 +1,35 @@
+/* /* div{
+    height: 32px;
+    width: 32px;
+    background-color: aqua;
+    border: 12px;
+    border-style: dashed;
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color:black;
+}
+button{
+    background-color: yellow;
+}
+#logo{
+    background-color: blueviolet;
+    font-size: 1px;
+/* } */
+div{
+
+    text-decoration: none;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+} 
